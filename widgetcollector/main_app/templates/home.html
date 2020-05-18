@@ -37,6 +37,13 @@
     <br><br>
     <hr>
     <a href="/add">add a widget</a>
+    <!-- Since the instructions say 'A SINGLE page (template) with a title of "Wacky Widgets", that displays all widgets in the database and provides a form to add a new widget.', the form should actually be displayed here and not on a separate page. That's why you needed the ModelForm in forms.py -->
+    <!-- <form class="col" method="POST">
+      {% csrf_token %}
+      <input class="form-control mr-sm-2" style="center" type="search" placeholder="Add Description" aria-label="Search" name="description"><br>
+      <input class="form-control mr-sm-2" type="search" placeholder="Add Quantity" aria-label="Search" name="quantity"><br>
+      <button class="btn btn grey" type="submit">ADD WIDGET</button><br>
+    </form> -->
   </div>
 </body>
 </html>
