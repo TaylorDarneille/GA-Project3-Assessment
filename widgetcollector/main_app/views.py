@@ -21,4 +21,4 @@ class WidgetCreate(CreateView):
 
 class WidgetDelete(DeleteView):
   model = Widget
-  success_url = '/'  
+  success_url = '/'
