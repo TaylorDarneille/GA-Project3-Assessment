@@ -81,6 +81,8 @@ DATABASES = {
     }
 }
 
+# The instructions for the assessment say 'You will not have to deploy this app, so do not waste time switching to use PostgreSQL, the default SQLite database is fine.' so you actually didn't need to mess with the database section in here, but since you did, you need to make sure you created a widgetcollector database on your machine.
+
 
 # Password validation
 # https://docs.djangoproject.com/en/3.0/ref/settings/#auth-password-validators
