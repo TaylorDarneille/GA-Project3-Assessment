@@ -7,7 +7,10 @@ from .models import Widget
 
 # Define the home view
 def home(request):
-  return render(request, 'home.html')
+  # there was no code yet to retrieve the widgets from the db and send them to the home.html template
+  widgets = Widget.objects.all()
+  return render(request, 'home.html', { 'widgets':widgets })
+  # return render(request, 'home.html')
 
 
 class WidgetCreate(CreateView):
